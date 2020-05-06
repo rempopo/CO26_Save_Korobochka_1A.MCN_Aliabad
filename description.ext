@@ -20,6 +20,7 @@ class Params
 
 	OVERVIEW(0, "Обзор:");
 	OVERVIEW(1, "Взвод ВДВ СССР спасает экипаж подбитой БМП.");
+	OVERVIEW(2, "Прямое участие ГСО в миссии не требуется.")
 
 
 	class overview_line_break

@@ -164,12 +164,13 @@ kit_vdv_crew = [
 cargo_kit_vdv_ammo = [
 	[],
 	[["CUP_30Rnd_545x39_AK_M",30],["CUP_PG7V_M",5],["rhs_mag_rgd5",20],["CUP_10Rnd_762x54_SVD_M",20],["CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",15],["CUP_1Rnd_HE_GP25_M",40],["CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",15],["rhs_mag_nspd",10],["rhs_mag_rdg2_black",10],["CUP_8Rnd_9x18_Makarov_M",10]],
-	[["ACE_fieldDressing",30],["ACE_packingBandage",20],["ACE_elasticBandage",15],["ACE_tourniquet",8]],
+	[["ACE_fieldDressing",30],["ACE_packingBandage",20],["ACE_elasticBandage",15],["ACE_tourniquet",8],["CUP_H_SLA_Helmet_OD_worn",10]],
 	[]
 ];
+
 //Afghan modjaheds
-#define INS_WEP ["CUP_arifle_G3A3_ris","hlc_rifle_FAL5000","CUP_srifle_LeeEnfield","CUP_arifle_M16A1","CUP_arifle_TYPE_56_2_Early","CUP_SKS"]
-#define INS_MAG ["CUP_20Rnd_762x51_G3","hlc_20Rnd_762x51_B_fal","CUP_10x_303_M","CUP_20Rnd_556x45_Stanag","CUP_30Rnd_762x39_AK47_bakelite_M","CUP_10Rnd_762x39_SKS_M"]
+#define INS_WEP ["CUP_arifle_G3A3_ris","CUP_arifle_FNFAL5060","CUP_srifle_LeeEnfield","CUP_arifle_M16A1","CUP_arifle_TYPE_56_2_Early","CUP_SKS"]
+#define INS_MAG ["CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_FNFAL_M","CUP_10x_303_M","CUP_20Rnd_556x45_Stanag","CUP_30Rnd_762x39_AK47_bakelite_M","CUP_10Rnd_762x39_SKS_M"]
 #define INS_MG_WEP ["CUP_lmg_PKM","CUP_lmg_UK59","CUP_arifle_RPK74"]
 #define INS_MG_MAG ["CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_50Rnd_UK59_762x54R_Tracer","CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M"]
 #define INS_UNI ["CUP_O_TKI_Khet_Partug_05","CUP_O_TKI_Khet_Partug_08","CUP_O_TKI_Khet_Partug_06"]

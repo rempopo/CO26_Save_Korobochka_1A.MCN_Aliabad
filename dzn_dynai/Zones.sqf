@@ -69,3 +69,21 @@
 	 /* (OPTIONAL) Activation condition */
 	,{ [TRG, "", "> 0"] call dzn_fnc_ccPlayers }
 ]
+,
+[
+	"patrol_darshaq" /* Zone Name */
+	,"RESISTANCE",true, /* Side, is Active */ [],[]
+	/* Groups: */
+	,[
+		[
+			3, /* Groups quantity */
+			/* Units */
+			[
+				["CUP_I_TK_GUE_Soldier", [], "kit_ins_random"]
+				,["CUP_I_TK_GUE_Soldier", [], "kit_ins_random"]
+			]
+		]
+	]
+	/* Behavior: Speed, Behavior, Combat mode, Formation */
+	,["LIMITED","SAFE","YELLOW","WEDGE"]
+]

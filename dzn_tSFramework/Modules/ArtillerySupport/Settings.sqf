@@ -13,15 +13,15 @@ tSF_ArtillerySupport_AdjustFireExpirationTimeout	= 5*30;	// Expirtation Timeout 
 /*
  *	AI Crew
  */ 
-tSF_ArtillerySupport_CrewClassname 	= "B_Soldier_unarmed_F";
-tSF_ArtillerySupport_CrewKitname 	= "";
+tSF_ArtillerySupport_CrewClassname 	= "O_Soldier_F";
+tSF_ArtillerySupport_CrewKitname 	= "kit_vdv_r";
 
 /*
  *	Firemissions properties 
  *	[ @DisplayName, @NumberAvailable, @RoundClassnames ]
  */
 tSF_ArtillerySupport_FiremissionsProperties = [
-	["HE", 2, ["8Rnd_82mm_Mo_shells", "rhs_mag_3vo18_10"]]
+	["HE", 3, ["8Rnd_82mm_Mo_shells", "rhs_mag_3vo18_10"]]
 	, ["SMK", 9, ["8Rnd_82mm_Mo_Smoke_white", "rhs_mag_d832du_10"]]
 	, ["ILLUM", 9, ["8Rnd_82mm_Mo_Flare_white", "rhs_mag_3vs25m_10"]]
 ];

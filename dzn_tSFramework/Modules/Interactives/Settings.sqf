@@ -19,7 +19,7 @@ INTRACTIVES_TABLE
 	[
 		["rhs_btr80_msv"]
 		, {
-			_this addAction ["Включить магнитофон", {[BTR,["3Dsound", 100, 1]] remoteExec ["say3D", 0]}];
+			[_this, "Включить магнитофон", { [BTR, ["3Dsound", 100, 1]] remoteExec ["say3D", 0]}, 8, "alive _target"] call dzn_fnc_addAction
 		}
 		, "client"
 		, false

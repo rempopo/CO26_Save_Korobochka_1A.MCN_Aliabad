@@ -26,7 +26,7 @@ CONVERSATION_TABLE
 
 	[
 		"Civ Info 1"
-		, CIV
+		, [CIV, CIV_1, CIV_2, CIV_3, CIV_4, CIV_5, CIV_6, CIV_7, CIV_8, CIV_9, CIV_10]
 		, [
 			0
 			, ["Здравствуй, шурави", "Что хотеть?"]
@@ -60,7 +60,7 @@ CONVERSATION_TABLE
 				]
 				, [
 				    "Пиздец тебе! ГАСИ ПИДОРАСА"
-					, { hint "Гаси ублюдка" }
+					, { ["Гаси ублюдка"] remoteExec ["hint", 0] }
 					, "Argument"
 					, -1
 				]
